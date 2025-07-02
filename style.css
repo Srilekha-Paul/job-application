@@ -14,9 +14,13 @@ body{
 .apply-box{
     max-width: 600px;
     padding: 20px;
+   
     background-color: #ffffff;
     margin: 0 auto;
     margin-top: 50px;
-    box-shadow: 4px 3px 5px rgba(1, 1, 1, alpha);
+    box-shadow: 4px 3px 5px rgba(1, 1, 1,0.1);
 
+}
+.form{
+    font-size: 20px;
 }

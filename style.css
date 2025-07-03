@@ -14,7 +14,7 @@ body{
 .apply-box{
     max-width: 600px;
     padding: 20px;
-   
+    border-radius: 5px;
     background-color: #ffffff;
     margin: 0 auto;
     margin-top: 50px;
@@ -23,4 +23,47 @@ body{
 }
 .form{
     font-size: 20px;
+}
+.form-container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+
+}
+.form_control{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 15px;
+}
+input,select,textarea{
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+input:focus{
+    outline-color: red;
+}
+.button_container{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+
+}
+button{
+    background-color: rgb(107, 28, 197);
+    border: transparent solid 2px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    color: #ffffff;
+     transition: 0.3s ease-in;
+}
+button:hover{
+    background-color: #ccc;
+    border: 2px solid rgb(109, 39, 189);
+    color: black;
+    transition: 0.3s ease-out;
 }
